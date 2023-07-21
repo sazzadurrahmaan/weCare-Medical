@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins','sans-serif';
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px 10%;
+}
+.top-most{
+    display: flex;
+    justify-content: space-between;
+}
+.top-most-right{
+    display: flex;
+    gap: 60px;
+}
+.emergency,.clock,.location{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
