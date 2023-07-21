@@ -19,3 +19,34 @@
     display: flex;
     gap: 20px;
 }
+/*--------------------------*/
+/*css for nav*/
+.navigation{
+    background: #1F2B6C;
+   color:#FCFEFE;
+}
+.navigation nav{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.navigation nav ul{
+    display: flex;
+    gap:20px;
+}
+.navigation nav ul li{
+    list-style: none;
+    padding:10px 10px 10px 0;
+}
+.apointment i,.apointment button{
+    padding: 10px;
+}
+.apointment i{
+    margin-right: 20px;
+}
+.apointment button{
+    border-radius: 50px;
+    border:none;
+    width:5 em;
+    cursor: pointer;
+}
