@@ -36,11 +36,12 @@
 .navigation nav{
     display: flex;
     justify-content:space-between;
-    
+
 }
 .navigation nav ul{
     display: flex;
     gap:20px;
+    
 }
 .navigation nav ul li{
     list-style: none;
@@ -89,14 +90,42 @@ letter-spacing: 2.88px;
 padding: 13px 35px;
 border-radius: 50px;
 background: var(--accent);
+font-weight: bold;
 border: none;
 }
 .ellipse-1{
-    width: 634px;
+    width: 834px;
 height: 334px;
 border-radius: 734px;
-opacity: 0.30000001192092896;
+opacity: 0.200001192092896;
 background: var(--secondary);
 position: absolute;
-
+top:20%;
+left:-200px;
+}
+.appointment{
+    display: flex;
+    position: absolute;
+    bottom: 0; 
+    gap:60px;
+}
+.appointment-1,.appointment-2,.appointment-3{
+    display: inline-flex;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border-radius: 5px;
+}
+.appointment-1{
+    background:var(--primary-color) ;
+    color:var(--accent);
+}
+.appointment-2{
+    background: var(--accent);
+    color:var(--primary-color);
+}
+.appointment-3{
+    background: var(--secondary);
+    color:var(--white-color);
 }
