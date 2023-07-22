@@ -4,6 +4,12 @@
     font-family:'poppins','sans-serif';
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #1F2B6C;
+    --white-color:#FCFEFE;
+    --font-family: 'Yeseva One', cursive;
+    --accent: #BFD2F8;
+  }
 .container{
     padding: 10px 10%;
 }
@@ -22,8 +28,8 @@
 /*--------------------------*/
 /*css for nav*/
 .navigation{
-    background: #1F2B6C;
-   color:#FCFEFE;
+    background: var(--primary-color);
+   color:var(--white-color)
 }
 .navigation nav{
     display: flex;
@@ -55,4 +61,30 @@
     width:100%;
     height: 100vh;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center; 
+}
+.hero-text p,.hero-text h1,.hero-text button{
+ margin-top: 20px;
+}
+.hero-text p{
+    color: var(--secondary, #159EEC);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.88px;
+}
+.hero-text h1{
+    font-size: 40px;
+    font-family: var(--font-family);
+    color:var(--primary-color);
+}
+.hero-text button{
+    display: inline-flex;
+padding: 13px 35px;
+border-radius: 50px;
+background: var(--accent);
+border: none;
 }
