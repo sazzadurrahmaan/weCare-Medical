@@ -50,3 +50,9 @@
     width:5 em;
     cursor: pointer;
 }
+#hero{
+    background:url(assets/images/physician.png);
+    width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
