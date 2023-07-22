@@ -6,6 +6,7 @@
 }
 :root {
     --primary-color: #1F2B6C;
+    --secondary: #159EEC;
     --white-color:#FCFEFE;
     --font-family: 'Yeseva One', cursive;
     --accent: #BFD2F8;
@@ -29,7 +30,8 @@
 /*css for nav*/
 .navigation{
     background: var(--primary-color);
-   color:var(--white-color)
+   color:var(--white-color);
+ 
 }
 .navigation nav{
     display: flex;
@@ -63,12 +65,13 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center; 
+    position: relative;
 }
 .hero-text p,.hero-text h1,.hero-text button{
  margin-top: 20px;
 }
 .hero-text p{
-    color: var(--secondary, #159EEC);
+    color: var(--secondary);
 font-family: Work Sans;
 font-size: 18px;
 font-style: normal;
@@ -87,4 +90,13 @@ padding: 13px 35px;
 border-radius: 50px;
 background: var(--accent);
 border: none;
+}
+.ellipse-1{
+    width: 634px;
+height: 334px;
+border-radius: 734px;
+opacity: 0.30000001192092896;
+background: var(--secondary);
+position: absolute;
+
 }
