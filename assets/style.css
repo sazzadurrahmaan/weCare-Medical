@@ -135,3 +135,18 @@ ul{
     font-size: 0.5rem;
     padding-bottom:1px;
 }
+
+/*----Search-----*/
+
+.appointment-search-container{
+    max-width: 1000px;
+    width:90%;
+    background-color: #fffcfc;
+    padding:20px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 2px 16px 30px rgba(0, 0, 0, 0.12);
+    z-index:3;
+    position : relative;
+    margin-top: -60px;
+}
