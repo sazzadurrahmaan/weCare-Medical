@@ -150,3 +150,43 @@ ul{
     position : relative;
     margin-top: -60px;
 }
+.appointment-search-container h3{
+    color:#122853;
+    font-size : 1rem;
+    margin-bottom: 5px;
+}
+.appointment-search{
+    display: grid;
+    grid-template-columns: 1fr 1fr 60px;
+    grid-gap:10px;
+}
+.appointment-search-box{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7fbff;
+    padding:15px;
+    border-radius: 4px;
+    border:1px solid #e43434;  
+}
+.appointment-search-box i{
+    color:#535353;
+    margin-right: 10px;
+}
+
+.appointment-search-box input{
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    outline:none;  
+}
+.appointment-search button{
+  background-color: #014dd5;
+  color:#ffffff;
+   border:none;
+   outline:none;
+   border-radius:5px;
+   font-size:1.1rem;
+   cursor: pointer;
+}
