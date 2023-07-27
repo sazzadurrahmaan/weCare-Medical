@@ -212,3 +212,16 @@ ul{
     background-color:#ffdad4;
     border-radius : 5px;
 }
+.w-info-text{
+    display: flex;
+    flex-direction:column;
+}
+.w-info-text strong{
+    color:#122853;
+    font-weight: 700;
+}
+.w-info-text p{
+    color:#535353;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+}
