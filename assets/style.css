@@ -190,3 +190,25 @@ ul{
    font-size:1.1rem;
    cursor: pointer;
 }
+/*--- what we provide ---*/
+.what-we-provide{
+    max-width:1200px;
+    width:90%;
+    margin:50px auto;
+}
+.w-info-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.w-info-icon{
+    width:60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size :1.4rem;
+    background-color:#ffdad4;
+    border-radius : 5px;
+}
