@@ -195,6 +195,8 @@ ul{
     max-width:1200px;
     width:90%;
     margin:50px auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
 }
 .w-info-box{
     display: flex;
@@ -211,6 +213,15 @@ ul{
     font-size :1.4rem;
     background-color:#ffdad4;
     border-radius : 5px;
+}
+.w-info-box-1 .w-info-icon{
+    background-color: #ffdad4;
+}
+.w-info-box-2 .w-info-icon{
+    background-color: #d4ffe1;
+}
+.w-info-box-3 .w-info-icon{
+    background-color: #d4e7ff;
 }
 .w-info-text{
     display: flex;
