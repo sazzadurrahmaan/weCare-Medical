@@ -289,3 +289,19 @@ ul {
     object-fit: cover;
     object-position: center;
 }
+.story-play-btn{
+    position:absolute;
+    left:100px;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dd343f;
+    padding:20px 10px;
+    border-radius: 4px 4px 10px 10px;
+    color:#ffffff;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
