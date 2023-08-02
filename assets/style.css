@@ -368,3 +368,24 @@ ul {
 }.sn-box-4{
     background-color: #d7d4ff;
 }
+
+/*Our Services*/
+
+#our-services{
+    width:100%;
+    background-color: #f5f7fb;
+    margin:50px auto 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-heading{
+display: flex;
+justify-content:space-evenly;
+align-items: left;
+max-width: 1200px;
+width:100%;
+margin: auto;
+}
