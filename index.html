@@ -15,6 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap"
         rel="stylesheet">
+    
+        <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -177,13 +180,25 @@
         </div>
         <!--Box-container -->
         <div class="services-box-container">
-            <!--box-->
-            <div class="service-box s-box1">
-                <i class="fa-solid fa-tooth"><i>
-                <strong>Dental Care</strong>
-                <p>Lorem ipsum dolor sit amet consectetur </p>
-                <a href="">Read More</a>
-            </div>
+
+            <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+        <!--slide 1-->
+      <div class="swiper-slide">
+        <!--box-->
+        <div class="service-box s-box1">
+            <i class="fa-solid fa-tooth"><i>
+            <strong>Dental Care</strong>
+            <p>Lorem ipsum dolor sit amet consectetur </p>
+            <a href="">Read More</a>
+        </div>
+    </div><!--slide end-->
+
+    </div> 
+  </div><!--swiper end-->
+
       
         </div>
     </section>
