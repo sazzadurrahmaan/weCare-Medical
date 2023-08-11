@@ -491,3 +491,13 @@ margin: auto;
     background-color: #d4d7ff;
 }
 
+.swiper-button-next, .swiper-button-prev{
+    position: static !important;
+    transform: translate(0,0);
+    margin: 10px !important;
+}
+.services-slide-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
