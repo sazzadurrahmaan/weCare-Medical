@@ -177,12 +177,17 @@
                 <strong>Our Services</strong>
                 <h2>High Quality Services For Your </h2>
             </div>
+            <!---slide button-->
+            <div class="services-slide-btn">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
         <!--Box-container -->
         <div class="services-box-container">
 
             <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiperServices">
     <div class="swiper-wrapper">
 
         <!--slide 1-->
@@ -196,12 +201,93 @@
         </div>
     </div><!--slide end-->
 
+            <!--slide 2-->
+            <div class="swiper-slide">
+                <!--box-->
+                <div class="service-box s-box2">
+                    <i class="fa-solid fa-tooth"></i>
+                    <strong>Dental Care</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <a href="">Read More</a>
+                </div>
+            </div><!--slide end-->
+
+                    <!--slide 3-->
+      <div class="swiper-slide">
+        <!--box-->
+        <div class="service-box s-box3">
+            <i class="fa-solid fa-tooth"></i>
+            <strong>Dental Care</strong>
+            <p>Lorem ipsum dolor sit amet consectetur </p>
+            <a href="">Read More</a>
+        </div>
+    </div><!--slide end-->
+
+            <!--slide 4-->
+            <div class="swiper-slide">
+                <!--box-->
+                <div class="service-box s-box4">
+                    <i class="fa-solid fa-tooth"></i>
+                    <strong>Dental Care</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                    <a href="">Read More</a>
+                </div>
+            </div><!--slide end-->
+
+                 <!--slide 5-->
+                 <div class="swiper-slide">
+                    <!--box-->
+                    <div class="service-box s-box5">
+                        <i class="fa-solid fa-tooth"></i>
+                        <strong>Dental Care</strong>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div><!--slide end-->
+          
     </div> 
   </div><!--swiper end-->
 
       
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+//    services slider
+    var swiper = new Swiper(".mySwiperServices", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
 
 </body>
 

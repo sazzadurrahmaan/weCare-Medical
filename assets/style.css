@@ -458,6 +458,7 @@ margin: auto;
     font-weight: 500;
     border-radius: 5px;
     margin-top:30px;
+    max-width: 100%;
 }
 .s-box1{
     background-color: #ecf5fd;
@@ -465,3 +466,28 @@ margin: auto;
 .s-box1 i{
     background-color: #d4e2ff;
 }
+.s-box2{
+    background-color: #edfff3;
+}
+.s-box2 i{
+    background-color: #d4e2ff;
+}
+.s-box3{
+    background-color: #fff0ee;
+}
+.s-box3 i{
+    background-color: #ffdad4;
+}
+.s-box4{
+    background-color: #fcffcf;
+}
+.s-box4 i{
+    background-color: #faf4b8;
+}
+.s-box5{
+    background-color: #e3bae7;
+}
+.s-box5 i{
+    background-color: #d4d7ff;
+}
+
