@@ -504,7 +504,19 @@ margin: auto;
 
 .swiper-button-next::after, .swiper-button-prev::after{
 
-    font-size : 25px IMP !important;
+    font-size : 25px !important;
     font-weight: 800; 
     color:#122853;
+}
+.service-help-btn{
+    color:#535353;
+    font-size :0.9rem;
+    margin-top:10px;
+    text-align: center;
+    padding:0px 10px;
+}
+.service-help-btn a{
+    color: #014dd5;
+    text-decoration:  underline;
+    font-weight: 600;
 }
