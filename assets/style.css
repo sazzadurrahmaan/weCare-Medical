@@ -945,3 +945,22 @@ footer{
     color: #252525;
     font-size: 0.9rem;
 }
+
+
+/*responsive section*/
+
+@media(max-width:1050px){
+    .hero-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .hero-text{
+        margin-bottom: 40px;
+        background-color: #ffffff;
+        padding: 30px;
+        margin-top: 0px;
+    }
+}
