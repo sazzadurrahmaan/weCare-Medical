@@ -1,8 +1,9 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: poppins;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -948,7 +949,17 @@ footer{
 
 
 /*responsive section*/
-
+.menu-icon,
+.menu-btn{
+    display: none;
+}
+@media(max-width:1200px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+}
 @media(max-width:1050px){
     .hero-content{
         display: flex;
@@ -964,7 +975,6 @@ footer{
         margin-top: 0px;
     }
 }
-/*for 950px*/
 @media(max-width:950px){
     .navigation{
         justify-content: space-between;
@@ -1093,3 +1103,68 @@ footer{
         width: 100%;
     }
 }
+@media(max-width:620px){
+    .hero-text{
+        padding: 20px;
+    }
+    .hero-text h1,
+    .our-stroy-text h2,
+    .services-heading h2,
+    .why-choose-us-left h3,
+    .why-choose-us-right h3,
+    .our-team-heading h3,
+    .testimonials-heading h3{
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .hero-text-btns{
+        flex-direction: column;
+    }
+    .hero-text-btns a{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .appointment-search{
+        grid-template-columns: 1fr;
+    }
+    .appointment-search button{
+        height: 45px;
+    }
+    .what-we-provide{
+        grid-template-columns: 1fr;
+    }
+    .our-stroy-text{
+        padding: 20px 15px;
+    }
+    .story-numbers-box{
+        padding: 15px;
+    }
+    .story-numbers-box strong{
+        font-size: 1.4rem;
+    }
+    .why-choose-us-right,
+    .why-choose-us-left{
+        padding: 30px 20px;
+    }
+    .why-choose-box-container{
+        grid-template-columns: 1fr;}
+    #subscribe h3{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    #subscribe{
+        padding: 20px;
+    }
+	 .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:320px){
+    .nav-appointment-btn{
+        display: none;
+    }
+    .story-numbers-container{
+        grid-template-columns: 1fr;
+    }
+}
+  
